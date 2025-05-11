@@ -1,0 +1,40 @@
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.links a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.scrollcontainer{
+    display: grid;
+    gap: 30px 30px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    justify-content:center;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.scrollcontainer img{
+    border-radius: 50%;
+}
+.imagegallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-content: center;
+}
